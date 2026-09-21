@@ -36,12 +36,13 @@ int main()
     {
         cout<<arr[i]<<" ";
     }
-     cout <<"number to be searched:";
+     cout <<"lower bound of number to be searched:";
     int x;
     cin>>x;
    
    
      int result=funct(arr,x,n);
+    cout<<"lower bound inddex is :"<<endl;
      cout<<result;
     
     return 0;
